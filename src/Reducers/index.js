@@ -1,9 +1,13 @@
 import {combineReducers} from 'redux';
-
-import TEST_reducer from './TEST_reducer'
+ 
+import LOGIN_reducer from './LOGIN_reducer' 
+import REDIRECT_reducer from './REDIRECT_reducer' 
+ 
 
 
 export default combineReducers({
-    TEST_reducer,
-     
+   
+    LOGIN_reducer,
+    REDIRECT_reducer
+  
   })
